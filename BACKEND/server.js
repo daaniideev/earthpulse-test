@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const app = express();
 
-app.use(cors({ origin: ['http://localhost:5173', 'http://localhost:5678'] }));
+app.use(cors());
 const geojson = {
 	type: 'FeatureCollection',
 	features: [
